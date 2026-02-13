@@ -27,4 +27,5 @@ public class LatihDataMahasiswa {
         System.out.println("IPK Semester : " + ipk);
         System.out.println("Total SKS : " + total);
 }
+
 }
