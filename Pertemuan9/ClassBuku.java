@@ -11,7 +11,7 @@ class Buku {
         System.out.println("=== INFORMASI BUKU ===");
         System.out.println("Judul : " + judul);
         System.out.println("Pengarang : " + pengarang);
-        System.out.println("Harga : " + harga);
+        System.out.println("Harga : Rp " + harga);
     }
 
 }
