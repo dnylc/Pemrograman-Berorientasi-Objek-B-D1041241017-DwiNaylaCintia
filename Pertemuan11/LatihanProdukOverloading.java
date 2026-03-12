@@ -6,13 +6,23 @@ class Produk {
     int harga;
     int stok;
 
-    //Constructor 1 : Nama dan harga saja
+    /**
+     * Constructor 1 : Nama dan harga saja
+     * @param namaProduk merupakan nama produk yang akan diinisialisasi
+     * @param harga merupakan harga produk yang akan diinisialisasi
+     * stok akan diset default 0
+     */
     public Produk(String namaProduk, int harga){
         this.namaProduk = namaProduk;
         this.harga = harga;
         stok = 0; // Default stok
     }
-    //Constructor 2 : Semua atribut
+    /**
+     * Constructor 2 : Semua atribut
+     * @param namaProduk merupakan nama produk yang akan diinisialisasi
+     * @param harga merupakan harga produk yang akan diinisialisasi
+     * @param stok merupakan stok produk yang akan diinisialisasi
+     */
     public Produk(String namaProduk, int harga, int stok) {
         this.namaProduk = namaProduk;
         this.harga = harga;
