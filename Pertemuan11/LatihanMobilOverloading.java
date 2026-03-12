@@ -6,19 +6,31 @@ class Mobil {
     String warna;
     int tahun;
 
-    //Constructor 1 : Tanpa parameter
+    /**
+     * Constructor 1 : Tanpa parameter
+     * Menginisialisasi atribut dengan nilai default
+     */
     public Mobil () {
         merk = "Unknown";
         warna = "Unknown";
         tahun = 0;
     }
-    //Constructor 2 : Dengan parameter hanya merk
+    /**
+     * Constructor 2 : Membuat object mobil dengan parameter hanya merk
+     * @param merk merupakan merk mobil yang akan diinisialisasi
+     * warna dan tahun tetap default
+     */
     public Mobil (String merk) {
         this.merk = merk;
         warna = "Unknown";
         tahun = 0;
     }
-    //Constructor 3 : Dengan parameter merk, warna, dan tahun
+    /**
+     * Constructor 3 : Membuat object mobil dengan parameter merk, warna, dan tahun
+     * @param merk merupakan merk mobil yang akan diinisialisasi
+     * @param warna merupakan warna mobil yang akan diinisialisasi
+     * @param tahun merupakan tahun mobil yang akan diinisialisasi
+     */
     public Mobil (String merk, String warna, int tahun) {
         this.merk = merk;
         this.warna = warna;
