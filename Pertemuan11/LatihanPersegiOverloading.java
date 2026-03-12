@@ -7,14 +7,27 @@ class PersegiPanjang {
     int luas;
     int keliling;
 
-    //Constructor 1 : Persegi (panjang = lebar)
+    /**
+     * Constructor 1 : Persegi (panjang = lebar)
+     * @param sisi merupakan panjang dan lebar sisi persegi
+     * luas dan keliling akan dihitung berdasarkan nilai sisi yang diberikan
+     * luas = panjang * lebar
+     * keliling = 2 * (panjang + lebar)
+     */
     public PersegiPanjang(int sisi) {
         this.panjang = sisi;
         this.lebar = sisi;
         this.luas = panjang * lebar;
         this.keliling = 2 * (panjang + lebar);  
     }
-    //Constructor 2 : Persegi Panjang (panjang dan lebar berbeda)
+    /**
+     * Constructor 2 : Persegi Panjang (panjang dan lebar berbeda)
+     * @param panjang merupakan panjang persegi panjang
+     * @param lebar merupakan lebar persegi panjang
+     * luas dan keliling akan dihitung berdasarkan nilai panjang dan lebar yang diberikan
+     * luas = panjang * lebar
+     * keliling = 2 * (panjang + lebar)
+     */
     public PersegiPanjang(int panjang, int lebar) {
         this.panjang = panjang;
         this.lebar = lebar;
